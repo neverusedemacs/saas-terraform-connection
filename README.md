@@ -12,7 +12,7 @@ This module is considered a *Global* module and only needs to be provisioned 1 t
 
 ```
 module "cloudsploit" {
-  source                  = "git@github.com:cloudsploit/cloudsploit-terraform-scans.git"
+  source                  = "git@github.com:cloudsploit/cloudsploit-terraform-scans.git?ref=terraform-v1.0"
   account_id              = "${var.account_id}"
   cloudsploit_external_id = "${var.cloudsploit_external_id}"
 }
